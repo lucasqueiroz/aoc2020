@@ -14,7 +14,6 @@ i = 0
 
 for line in lines:
     if line == "\n" or i == last:
-        print(current)
         total += len(set(current.strip()))
         current = ""
     else:
