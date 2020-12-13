@@ -1,5 +1,4 @@
 import os
-import re
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, 'input')
 
@@ -23,7 +22,6 @@ class Group:
                     all_answers = all_answers.replace(ch, "")
 
         return total
-
 
 
 current = ""

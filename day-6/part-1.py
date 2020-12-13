@@ -1,5 +1,4 @@
 import os
-import re
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, 'input')
 
