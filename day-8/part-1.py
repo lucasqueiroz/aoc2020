@@ -10,7 +10,7 @@ instructions = {}
 acc = 0
 i = 0
 
-while i < len(lines) - 1:
+while i < len(lines):
     line = lines[i].strip()
 
     if i in instructions.get(line, []):
